@@ -1,0 +1,16 @@
+PS C:\Users\rsc24> cd C:\Users\rsc24\OneDrive\デスクトップ\git_challenge        
+PS C:\Users\rsc24\OneDrive\デスクトップ\git_challenge> git init
+Initialized empty Git repository in C:/Users/rsc24/OneDrive/デスクトップ/git_challenge/.git/
+PS C:\Users\rsc24\OneDrive\デスクトップ\git_challenge> git add .
+PS C:\Users\rsc24\OneDrive\デスクトップ\git_challenge> git commit -m "新規作成、Hello, world!の追加"
+[main (root-commit) 4e39d8c] 新規作成、Hello, world!の追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\rsc24\OneDrive\デスクトップ\git_challenge> git add .
+PS C:\Users\rsc24\OneDrive\デスクトップ\git_challenge> git commit -m "こんにちは、世界！の追加"
+[main 1603fb5] こんにちは、世界！の追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\rsc24\OneDrive\デスクトップ\git_challenge> git log --oneline
+1603fb5 (HEAD -> main) こんにちは、世界！の追加
+4e39d8c 新規作成、Hello, world!の追加
+PS C:\Users\rsc24\OneDrive\デスクトップ\git_challenge> 
